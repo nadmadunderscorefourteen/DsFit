@@ -39,18 +39,20 @@ header{
     padding: 31.5px 0;
 }
 
-.header--title{
+.header--title h1{
     font-size: 18px;
     font-weight: 700;  
 }
 
 .header--socialMedia{
     display: flex;
-    font-size: 14px;   
+    font-size: 14px;
+    font-weight: 400;
 }
 
 a{
     margin-left: 10px;
+    padding-top: 3px;
 }
 
 .gtnRoom{
@@ -107,6 +109,10 @@ section h2{
     color: var(--secondary-color);
 }
 
+.modalities p{
+    color: var(--soft-grey);
+}
+
 .footer{
     height: 262px;
     background-color: var(--black-color);
@@ -127,6 +133,14 @@ section h2{
     height: 30px;
     width: 30px;
     margin-top: 10px;
+}
+
+.twitter img{
+    margin-right: 5.2px;
+}
+
+.twitter a{
+    margin-right: 4.8px;
 }
 
 .footer--copyAdress{
